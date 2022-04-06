@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
 }
 
-#resource "aws_key_pair" "my-key" {
+ resource "aws_key_pair" "my-key" {
   key_name   = var.key_name
   public_key = var.public_key
 }
